@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Zodiak</string>
+    <string name="zodiak_name">Nama Zodiak</string>
+    <string name="zodiak_date">Tanggal Zodiak</string>
+    <string name="zodiak_etc">Keterangan Zodiak</string>
+    <string name="tb_date">Date</string>
+    <string name="tb_info">Info</string>
+    <string name="name">Muchamad Iqbal Fauzi</string>
+    <string name="email">672018382@student.uksw.edu\nfauziqbal2@gmail.com</string>
+</resources>

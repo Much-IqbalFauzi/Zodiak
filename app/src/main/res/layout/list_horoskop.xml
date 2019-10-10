@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:id="@+id/daftar_horoskop"
+    android:outlineSpotShadowColor="@color/cardview_dark_background"
+    >
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/view_photo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/view_photo"
+        android:layout_toRightOf="@id/view_photo"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/view_nama_zodiak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:text="@string/zodiak_name"
+            />
+        <TextView
+            android:id="@+id/view_tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            tools:text="@string/zodiak_date"
+            />
+    </LinearLayout>
+</RelativeLayout>

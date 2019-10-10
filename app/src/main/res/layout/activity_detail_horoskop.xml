@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_vertical_margin"
+    android:padding="@dimen/padding_global"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/view_photo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            />
+        <TextView
+            android:id="@+id/view_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/view_photo"
+            android:layout_toRightOf="@id/view_photo"
+            android:layout_marginLeft="10dp"
+            />
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_vertical_margin">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_global">
+
+            <TextView
+                android:layout_width="78dp"
+                android:text="@string/tb_date"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/view_tanggal"
+                android:layout_width="209dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_global"
+            android:paddingRight="8dp">
+
+            <TextView
+                android:layout_width="50dp"
+                android:text="@string/tb_info"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/view_info"
+                android:layout_width="87dp"
+                android:padding="@dimen/padding_global"
+                tools:text="asdfasdsdasadfasgaare gfdgdgfgddhgsd gsh gfh fghdh t hgh rtth dghg hthgh gh dfsgdfg 4 fh4t hgrrytr es hewrew hrgh etr gh rth wrthghwr hfdg  qeg efh  yj sfg 3rh4 dvh4 hrh4t dhq4sadf sadf   gr sag reg fag 4 dfg 45ag 6a g 5  3 3 t3t a g3 rag aer e 3 r er r r era er era 5y r dhr g hwj" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
